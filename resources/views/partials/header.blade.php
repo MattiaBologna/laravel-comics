@@ -1,14 +1,14 @@
-<header>
-    <div class="container">
-        <nav>
+<header class="bg-primary">
+    <div class="container text-white">
+        <nav class="d-flex gap-4 list-unstyled">
             <li>
-                <a href="{{ route('home')}}">Home</a>
+                <a class="text-white" href="{{ route('home')}}">Home</a>
             </li>
             <li>
-                <a href="{{ route('comics')}}">Comics</a>
+                <a class="text-white" href="{{ route('comics')}}">Comics</a>
             </li>
             <li>
-                <a href="{{ route('contact')}}">Contatti</a>
+                <a class="text-white" href="{{ route('contact')}}">Contatti</a>
             </li>
         </nav>
     </div>
